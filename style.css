@@ -1,0 +1,21 @@
+:root {
+    --c1: #ffffff;
+    --c2: #101010;
+    --c3: #202020;
+    --c4: #303030;
+    --c5: #000000;
+    --c6: #202020;
+  }
+  
+  body {
+    background-color: var(--c5);
+    color: var(--c1);
+  }
+
+  .header-links {
+    display: flex;
+    float: right;
+    width: fit-content;
+    background-color: var(--c4);
+  }
+
