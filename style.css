@@ -4,7 +4,6 @@
     --c3: #202020;
     --c4: #303030;
     --c5: #000000;
-    --c6: #202020;
   }
   
   body {
@@ -22,4 +21,14 @@
 
   .header-links div {
     background-color: var(--c1);
+  }
+
+  .app {
+    background-color: var(--c4);
+    padding: 5%;
+  }
+  
+  .app iframe {
+    width: 100%;
+    height: 100%;
   }
