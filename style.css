@@ -15,7 +15,11 @@
   .header-links {
     display: flex;
     float: right;
-    width: fit-content;
+    width: 90%;
+    height: 10%;
     background-color: var(--c4);
   }
 
+  .header-links div {
+    background-color: var(--c1);
+  }
