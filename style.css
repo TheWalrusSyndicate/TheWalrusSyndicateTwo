@@ -144,3 +144,45 @@
     width: 100%;
     height: 100%;
   }
+
+  .projects-list {
+    display: grid;
+    
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));  
+    grid-template-rows: auto;
+
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .project-item {
+    width: 90%;
+    aspect-ratio: .8;
+
+    display: block;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    background-color: var(--c4);
+  }
+
+  .project-item title {
+    height: 10px;
+
+    background-color: var(--c3);
+  }
+
+  .project-item-image {
+    height: 80%;
+  }
+
+  .project-item-image img {
+    height: 10%;
+  }
+
+  .project-item-description {
+    height: 10%;
+  }
