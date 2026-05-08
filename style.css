@@ -1,200 +1,203 @@
 :root {
-    --c1: #ffffff;
-    --c2: #404040;
-    --c3: #303030;
-    --c4: #202020;
-    --c5: #101010;
-    --c6: #000000;
-  }
-  
-  body {
-    background-color: var(--c6);
-    color: var(--c1);
-    font-family: 'Courier New', Courier, monospace;
-  }
+  --c1: #ffffff;
+  --c2: #404040;
+  --c3: #303030;
+  --c4: #202020;
+  --c5: #101010;
+  --c6: #000000;
+}
 
-  .logo{
-    width: 120px;
-  }
+body {
+  background-color: var(--c6);
+  color: var(--c1);
+  font-family: 'Courier New', Courier, monospace;
+}
 
-  .header-panel {
-    float: right;
-    width: calc(100% - 120px);
-    height: 110px;
-  }
+.logo {
+  width: 120px;
+}
 
-  .header-panel a {
-    width: 100%;
-    height: 100%;
+.header-panel {
+  float: right;
+  width: calc(100% - 120px);
+  height: 110px;
+}
 
-    display: block;
+.header-panel a {
+  width: 100%;
+  height: 100%;
 
-    text-decoration: none;
-    text-align: center;
-    align-content: center;
-    color: inherit;
-  }
+  display: block;
 
-  .external-nav {
-    height: 30%;
-    padding-left: 5px;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  color: inherit;
+}
 
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: stretch;
+.external-nav {
+  height: 30%;
+  padding-left: 5px;
 
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    background-color: var(--c4);
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: stretch;
 
-  .external-nav div
-  {
-    box-sizing: border-box;
-    height: 100%;
-    padding: 5px;
-    padding-left: 10px;
-  }
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: var(--c4);
+}
 
-  .external-nav img {
-    height: 100%;
-  }
+.external-nav div {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 5px;
+  padding-left: 10px;
+}
 
-  .external-nav form {
-    width: 25%;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: 10px;
+.external-nav img {
+  height: 100%;
+}
 
-    box-sizing: border-box;
-  }
+.external-nav form {
+  width: 25%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: 10px;
 
-  .external-nav form input {
-    width: 90%;
-    height: 80%;
+  box-sizing: border-box;
+}
 
-    padding-left: 20px;
-    
-    border-radius: 6px;
-    background-color: var(--c6);
-    color: var(--c1);
-  }
+.external-nav form input {
+  width: 90%;
+  height: 80%;
 
-  .external-nav form input:focus {
-    outline:none;
-  }
+  padding-left: 20px;
 
-  .external-nav form img {
-    position: absolute;
-    margin: 6px;
-    height: 12px;
-  }
+  border-radius: 6px;
+  background-color: var(--c6);
+  color: var(--c1);
+}
 
-  div.account-icon {
-    margin-left: 0px;
-    padding-left: 0px;
-  }
+.external-nav form input:focus {
+  outline: none;
+}
 
-  .internal-nav {
-    height: 70%;
-    padding: 5px;
+.external-nav form img {
+  position: absolute;
+  margin: 6px;
+  height: 12px;
+}
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: stretch;
+div.account-icon {
+  margin-left: 0px;
+  padding-left: 0px;
+}
 
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    background-color: var(--c5);
-  }
+.internal-nav {
+  height: 70%;
+  padding: 5px;
 
-  .internal-nav div {
-    flex-grow: 1;
-    margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
 
-    display: flex;
-    justify-content: center;
-    content: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: var(--c5);
+}
 
-    border-radius: 8px;
-    background-color: var(--c3);
-  }
+.internal-nav div {
+  flex-grow: 1;
+  margin: 5px;
 
-  div.selected-nav
-  {
-      background-color: var(--c2);
-      outline-style: solid;
-      outline-offset: -4px;
-      outline-color: var(--c3);
-      outline-width: 5px;
-  }
+  display: flex;
+  justify-content: center;
+  content: center;
 
-  .internal-nav div:hover {
-        background-color: var(--c2);
-  }
+  border-radius: 8px;
+  background-color: var(--c3);
+}
 
-  .app {
-    background-color: var(--c3);
-    padding: 5%;
-  }
+div.selected-nav {
+  background-color: var(--c2);
+  outline-style: solid;
+  outline-offset: -4px;
+  outline-color: var(--c3);
+  outline-width: 5px;
+}
 
-  .app iframe {
-    width: 100%;
-    height: 100%;
-  }
+.internal-nav div:hover {
+  background-color: var(--c2);
+}
 
-  .projects-list {
-    display: grid;
-    
-    align-items: center;
-    justify-items: center;
+.centered-title {
+  text-align: center;
+}
 
-    grid-template-columns: repeat(auto-fit, 300px);  
-    grid-template-rows: repeat(auto-fit, 400px);
+.app {
+  background-color: var(--c3);
+  padding: 5%;
+}
 
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  
-  .project-item {
-    height: 90%;
-    width: 90%;
+.app iframe {
+  width: 100%;
+  height: 100%;
+}
 
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-    margin-bottom: 25px;
+.projects-list {
+  display: flex;
+  flex-direction: column;
 
-    background-color: var(--c4);
-  }
+  align-items: center;
+  width: 100%;
+  padding: auto;
+}
 
-  .project-item-title {
-    height: 15%;
+.project-item {
+  height: 90%;
+  width: 50vw;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 25px;
 
-    font-size: xx-large;
+  border-radius: 10px 10px 10px 10px;
 
-    background-color: var(--c3);
-  }
+  background-color: var(--c4);
+}
 
-  .project-item-image {
-    height: 60%;
+.project-item-title {
+  height: 15%;
 
-    margin-left: 10%;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  .project-item-image img {
-    height: 100%;
-  }
+  border-radius: 10px 10px 0px 0px;
+  font-size: xx-large;
 
-  .project-item-description {
-    height: 25%;
-    padding-left: 10px;
-    font-size: small;
-    background-color: var(--c3);
-  }
+  background-color: var(--c3);
+}
+
+.project-item-image {
+  height: 30vh;
+  margin: auto;
+}
+
+.project-item-image img {
+  height: 100%;
+}
+
+.project-item-description {
+  height: 25%;
+  padding-left: 10px;
+
+  border-radius: 0px 0px 10px 10px;
+
+  font-size: small;
+  background-color: var(--c3);
+}
