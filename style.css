@@ -171,20 +171,21 @@ div.selected-nav {
 }
 
 .project-item-title {
-  height: 15%;
+  height: 70px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
   border-radius: 10px 10px 0px 0px;
+  padding-top: 5px;
   font-size: xx-large;
 
   background-color: var(--c3);
 }
 
 .project-item-image {
-  height: 30vh;
+  height: 25vh;
   margin: auto;
 }
 
@@ -193,9 +194,10 @@ div.selected-nav {
 }
 
 .project-item-description {
-  height: 25%;
-  padding-left: 10px;
+  height: 100%;
 
+  display: flex;
+  padding-left: 10px;
   border-radius: 0px 0px 10px 10px;
 
   font-size: small;
