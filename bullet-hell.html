@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel ="stylesheet" href="style.css">
-        <title>Bullet Hell</title>
-    </head>
-    <body>
-        <header>
-            <a href = "home.html"><img src="images/walrus-syndicate-logo.png" class="logo"></a>
-            <div class = "header-panel">
-                <nav class = "external-nav">
-                    <div><a href = "https://github.com/TheWalrusSyndicate"><img src="images/github-logo.png"></a></div>
-                    <div><a href = ""><img src="images/email-logo.png"></a></div>
-                    <form class="search-bar">
-                        <img src="images/search-icon.png">
-                        <input type="text">
-                    </form>
-                    <div class="account-icon"><a href = "create-account.html"><img src="images/walrus-syndicate-logo.png"></a></div>
-                </nav>
-                <nav class = "internal-nav">
-                    <div><a href="index.html">Home</a></div>
-                    <div><a href="projects.html">Projects</a></div>
-                    <div><a href="about.html">About</a></div>
-                    <div><a href="contact.html">Contact</a></div>
-                </nav>
-            </div>
-        </header>
-        <div class = "app">
-            <iframe src="app/bullet-hell.html" title="bullet hell"></iframe>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Bullet Hell</title>
+</head>
+
+<body>
+    <header>
+        <a href="home.html"><img src="images/walrus-syndicate-logo.png" class="logo"></a>
+        <div class="header-panel">
+            <nav class="external-nav">
+                <div><a href="https://github.com/TheWalrusSyndicate"><img src="images/github-logo.png"></a></div>
+                <div><a href=""><img src="images/email-logo.png"></a></div>
+                <form class="search-bar">
+                    <img src="images/search-icon.png">
+                    <input type="text">
+                </form>
+                <div class="account-icon"><a href="create-account.html"><img src="images/walrus-syndicate-logo.png"></a>
+                </div>
+            </nav>
+            <nav class="internal-nav">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="projects.html">Projects</a></div>
+                <div><a href="about.html">About</a></div>
+                <div><a href="contact.html">Contact</a></div>
+            </nav>
         </div>
-    </body>
+    </header>
+    <h1 class="centered-title">Bullet Hell</h1>
+    <div class="app">
+        <iframe src="app/bullet-hell.html" title="bullet hell"></iframe>
+        <div class="app-bar">
+            <img src="images/play-icon.png">
+            <div class="rating-icon">
+                <img class="rating-icon-fill" src="images/rating-fill.png">
+                <img class="rating-icon-stencil" src="images/rating-stencil.png">
+            </div>
+            <img class="expand-button" src="images/expand-icon.png">
+        </div>
+    </div>
+    <h2 class=" centered-title">Description</h2>
+    <h2 class="centered-title">Comments</h2>
+</body>
+
 </html>
